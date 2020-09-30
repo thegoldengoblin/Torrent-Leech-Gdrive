@@ -23,14 +23,14 @@ class Config(object):
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
     # set timeout for subprocess
-    PROCESS_MAX_TIMEOUT = 36000
+    PROCESS_MAX_TIMEOUT = 3600
     #
     ARIA_TWO_STARTED_PORT = int(os.environ.get("ARIA_TWO_STARTED_PORT", 6800))
     EDIT_SLEEP_TIME_OUT = int(os.environ.get("EDIT_SLEEP_TIME_OUT", 15))
     MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START = int(os.environ.get("MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START", 3600))
     MAX_TG_SPLIT_FILE_SIZE = int(os.environ.get("MAX_TG_SPLIT_FILE_SIZE", 1950000000))
     # add config vars for the display progress
-    FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "🔴")
+    FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "🔵")
     UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "⚪")
     # add offensive API
     TG_OFFENSIVE_API = os.environ.get("TG_OFFENSIVE_API", None)
@@ -44,10 +44,10 @@ class Config(object):
     TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech")
     CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel")
     GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize")
-    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status@Asvideo1bot")
-    SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "save@Asvideo1bot")
-    CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clear@Asvideo1bot")
+    STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status")
+    SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "save")
+    CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clear")
     UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "False")
     PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl")
-    LOG_COMMAND = os.environ.get("LOG_COMMAND", "log@Asvideo1bot")
+    LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
     CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone")
