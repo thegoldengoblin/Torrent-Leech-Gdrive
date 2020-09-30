@@ -221,7 +221,8 @@ and everythin except `[NAME]`
 
 * `/renewme`: This will clear the remains of downloads which are not getting deleted after upload of the file or after /cancel command. 
 
-
+* `/clear` : This will clear current thumbnail
+* `/save` : This will save video or file's custom thumbnail, If reply this command to a photo.
 * [Only work with direct link and youtube link for now]It is like u can add custom name as prefix of the original file name.
 Like if your file name is `gk.txt` uploaded will be what u add in `CUSTOM_FILE_NAME` + `gk.txt`
 
