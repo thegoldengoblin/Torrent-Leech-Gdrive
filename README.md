@@ -20,7 +20,8 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ Option to select either video will be uploaded as document or streamable
     ✓ Added /renewme command to clear the downloads which are not deleted automatically.
     ✓ Added support for youtube playlist 😐
-    
+    ✓ Added supply for ".AVI" files to upload as video
+    ✓ Fixed ETA...
     
 # TO-DO
 -   ~Gdrive file clonning using Gclone~ `DONE ✓`
