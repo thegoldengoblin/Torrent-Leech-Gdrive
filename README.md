@@ -1,5 +1,5 @@
 # for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
-# working example group [Leech Here](https://telegram.dog/GBotStore)
+# working example group [Leech Here](https://t.me/publicleech1)
 
 # Telegram Torrent Leecher 🔥🤖
 
