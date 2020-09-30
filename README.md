@@ -40,7 +40,7 @@ a)You have to fork this repo at first(Don't know how to🤔, Then google it😐)
 
 Tap Deploy Below 👇👇👇
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judhistir88/TorrentLeech-Gdrive-Asvideo1) #Revived
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judhistir88/Torrent-Leech-Gdrive) #Revived
 
 Better buy a vps 😐 and follow [this](https://github.com/gautamajay52/TorrentLeech-Gdrive#process-to-run-this-bot-on-vps)
 
